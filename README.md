@@ -1,64 +1,23 @@
-# Laboratoria
-Projetos realizados durante a jornada de dados da Laboratoria
-# 📋 Ficha Técnica do Projeto
+# 📊 Projeto: Análise de Dados com Power BI e SQL
 
-## 🔵 Tratamento e Preparação dos Dados
+## Descrição
+Projeto para análise de dados logísticos, usando SQL para extração/tratamento e Power BI para dashboards.
 
-| Etapa                                                            | Power BI | SQL  |
-|------------------------------------------------------------------|:-------:|:----:|
-| Conectar/importar dados para as ferramentas                      | ✔       | ✔    |
-| Identificar e tratar valores nulos                               | ✔       | -    |
-| Identificar e tratar valores duplicados                          | ✔       | -    |
-| Identificar e gerenciar dados fora do escopo de análise          | ✔       | -    |
-| Identificar e tratar dados discrepantes em variáveis categóricas | ✔       | -    |
-| Identificar e tratar dados discrepantes em variáveis numéricas    | ✔       | -    |
-| Verificar e alterar os tipos de dados                             | ✔       | -    |
-| Unir (join) as tabelas de dados                                   | ✔       | -    |
-| Criar novas variáveis                                             | ✔       | -    |
-| Construir tabelas de dados auxiliares                             | ✔       | -    |
+## Estrutura de Arquivos
+- **arquivos-powerbi/** → Arquivo .pbix com dashboards
+- **consultas-sql/** → Consultas SQL para tratamento e análise de dados
+- **README.md** → Esta ficha técnica do projeto
 
----
+## Consultas Utilizadas
+1. Seleção de Dados
+2. Tratamento de Nulos
+3. Remoção de Duplicados
+4. Identificação de Outliers
 
-## 🟪 Análise Exploratória dos Dados
+## Ferramentas
+- Power BI Desktop
+- SQL Server / BigQuery
+- GitHub
 
-| Etapa                                                      | Power BI | SQL  |
-|-------------------------------------------------------------|:-------:|:----:|
-| Agrupar dados de acordo com variáveis categóricas           | ✔       | -    |
-| Visualizar variáveis categóricas                             | ✔       | -    |
-| Aplicar medidas de tendência central                         | ✔       | -    |
-| Visualizar a distribuição dos dados                          | ✔       | -    |
-| Aplicar medidas de dispersão                                  | ✔       | -    |
-| Visualizar o comportamento dos dados ao longo do tempo       | ✔       | -    |
-| Calcular quartis, decis ou percentis                         | ✔       | -    |
-| Calcular correlação entre variáveis                           | ✔       | -    |
-
----
-
-## 🟥 Aplicação de Técnicas de Análise
-
-| Etapa            | Power BI | SQL  |
-|------------------|:-------:|:----:|
-| Aplicar segmentação  | ✔       | -    |
-| Validar hipótese     | ✔       | -    |
-| Regressão linear     | -       | -    |
-
----
-
-## 🟧 Visualização e Relatórios
-
-| Etapa                                                   | Power BI | SQL  |
-|----------------------------------------------------------|:-------:|:----:|
-| Representar os dados por meio de tabela resumo/scorecards | ✔       | -    |
-| Representar os dados através de gráficos simples          | ✔       | -    |
-| Representar os dados por meio de gráficos avançados       | ✔       | ✔    |
-| Aplicar filtros para interação com o usuário              | ✔       | -    |
-
----
-
-## 🟩 Apresentação dos Resultados
-
-| Etapa                                           | Power BI | SQL  |
-|------------------------------------------------|:-------:|:----:|
-| Selecionar gráficos e informações relevantes   | ✔       | ✔    |
-| Criar apresentação                             | ✔       | ✔    |
-| Apresentar resultados com conclusões e recomendações | ✔   | -    |
+## Como visualizar
+Abra o arquivo `.pbix` no Power BI Desktop para visualizar os dashboards.
